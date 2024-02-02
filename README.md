@@ -1,5 +1,5 @@
 # Binance Trade Data Pipeline
-A streamlined data pipeline designed to extract cryptocurrency trade data from Binance, orchestrate the process using Apache Airflow, and efficiently store the data on Amazon EC2 and S3 for processing and archiving.
+A streamlined data pipeline designed to extract cryptocurrencies (BTC, SOL, ETH, BNB, USDT, USDC) trade data from Binance, orchestrate the process using Apache Airflow, and efficiently store the data on Amazon EC2 and S3 for processing and archiving.
 ## Tools used;
 - Python
 - Apache Airflow
@@ -13,4 +13,3 @@ A streamlined data pipeline designed to extract cryptocurrency trade data from B
 - **Airflow Orchestration**: Apache Airflow DAG schedules and manages the data extraction process.
 - **Amazon EC2 Storage**: Stores processed data on an Amazon EC2 instance.
 - **Amazon S3 Archiving**: Efficiently archives and backs up data on Amazon S3 for scalability.
-
