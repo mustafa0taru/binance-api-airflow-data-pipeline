@@ -5,11 +5,11 @@ from datetime import datetime, timedelta
 from binance_trade import extract_trade_data
 
 # Binance API credentials
-api_key = 'your_api_key'
-api_secret = 'your_api_secret'
+api_key = 'api_key'
+api_secret = 'api_secret'
 
-# Binance trading pair
-symbol = 'BTCUSDT'
+# Binance trading pairs to extract
+symbols = ['BTCUSDT', 'SOLUSDT', 'ETHUSDT', 'BNBUSDT', 'USDTUSDC']
 
 default_args = {
     'owner': 'airflow',
@@ -25,7 +25,7 @@ dag = DAG(
     'binance_trade_extraction',
     default_args=default_args,
     description='Extract trade data from Binance API',
-    schedule_interval=timedelta(days=1),  # Adjust as needed
+    schedule_interval=timedelta(days=1), 
 )
 
 def run_extraction(**kwargs):
