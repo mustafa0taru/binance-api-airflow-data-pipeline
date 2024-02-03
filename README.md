@@ -7,7 +7,7 @@ A streamlined data pipeline designed to extract cryptocurrencies (BTC, SOL, ETH,
 - Amazon EC2 Instance
 - Amazon S3 Bucket
 ## The Architecture
-![Untitled (5)](https://github.com/mustafa0taru/binance-api-airflow-data-pipeline/assets/81088966/830157a5-8ac8-43f1-a948-4a7c428479ef)
+![Untitled (6)](https://github.com/mustafa0taru/binance-api-airflow-data-pipeline/assets/81088966/0f22cd74-bf9d-4e21-9ee1-7c1f247e7518)
 ## Features
 - **Binance Trade Data Extraction**: Utilizes the Binance API to fetch cryptocurrency trade data.
 - **Airflow Orchestration**: Apache Airflow DAG schedules and manages the data extraction process.
