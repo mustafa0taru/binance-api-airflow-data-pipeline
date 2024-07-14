@@ -10,4 +10,4 @@ def extract_trade_data(api_key, api_secret, symbol, save_path):
     # Do something with the trade data (e.g., save to a file)
     with open(save_path, 'w') as file:
         file.write(str(trades))
-    print("Trade data extracted successfully.")
+    print("Trade data extracted successfully")
