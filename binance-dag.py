@@ -9,7 +9,7 @@ api_key = 'api_key'
 api_secret = 'api_secret'
 
 # Binance trading pairs to extract
-symbols = ['BTCUSDT', 'SOLUSDT', 'ETHUSDT', 'BNBUSDT', 'USDTUSDC']
+symbols = ['BTCUSDT', 'SOLUSDT', 'ETHUSDT', 'BNBUSDT']
 
 default_args = {
     'owner': 'airflow',
